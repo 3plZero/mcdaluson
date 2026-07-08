@@ -17,6 +17,11 @@ import abra2 from "@/assets/abra-2.png";
 import abra3 from "@/assets/abra-3.png";
 import abra4 from "@/assets/abra-4.png";
 import abra5 from "@/assets/abra-5.png";
+import skey1 from "@/assets/skey-1.png";
+import skey2 from "@/assets/skey-2.png";
+import skey3 from "@/assets/skey-3.png";
+import skey4 from "@/assets/skey-4.png";
+import skey5 from "@/assets/skey-5.png";
 
 interface Project {
   title: string;
@@ -53,10 +58,12 @@ const projects: Project[] = [
     screenshots: [abra1, abra2, abra3, abra4, abra5],
   },
   {
-    title: "Mobile Banking App",
-    description: "Secure and intuitive financial management solution",
-    tags: ["React Native", "GraphQL", "AWS"],
-    year: "2023",
+    title: "SKey Connect",
+    description: "A governance platform empowering young leaders in Tayum, Abra with project tracking, budget transparency, and leadership profiles",
+    tags: ["React", "TypeScript", "Tailwind CSS", "AI Advisor"],
+    year: "2025",
+    link: "https://sk-connect-tayum.vercel.app/",
+    screenshots: [skey1, skey2, skey3, skey4, skey5],
   },
   {
     title: "Portfolio Generator",
