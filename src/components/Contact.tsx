@@ -104,7 +104,7 @@ const Contact = () => {
                   Social
                 </p>
                 <div className="flex gap-6">
-                  <a href="#" className="hover:text-primary transition-colors">
+                  <a href="https://www.linkedin.com/in/mark-carevin-daluson-83012b376" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                     LinkedIn
                   </a>
                   <a href="https://github.com/revelly2" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
