@@ -65,12 +65,6 @@ const projects: Project[] = [
     link: "https://sk-connect-tayum.vercel.app/",
     screenshots: [skey1, skey2, skey3, skey4, skey5],
   },
-  {
-    title: "Portfolio Generator",
-    description: "Dynamic portfolio builder with customizable themes",
-    tags: ["Next.js", "Tailwind", "Vercel"],
-    year: "2023",
-  },
 ];
 
 const Projects = () => {
