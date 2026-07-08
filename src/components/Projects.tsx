@@ -240,7 +240,7 @@ const Projects = () => {
                     href={selectedProject.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-sm text-primary hover:underline"
+                    className="flex items-center gap-2 font-mono text-xs uppercase tracking-widest bg-primary text-primary-foreground px-5 py-2.5 border border-primary font-bold transition-all duration-200 translate-x-0 translate-y-0 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,0.15)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-none mr-8"
                     onClick={(e) => e.stopPropagation()}
                   >
                     Visit Site <ExternalLink className="w-4 h-4" />
