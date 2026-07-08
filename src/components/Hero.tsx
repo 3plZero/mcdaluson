@@ -1,5 +1,5 @@
 import GeometricPattern from "./GeometricPattern";
-import profileImage from "@/assets/profile.png";
+import profileImage from "@/assets/profile.jpg";
 import { useMultiParallax } from "@/hooks/use-parallax";
 
 const Hero = () => {

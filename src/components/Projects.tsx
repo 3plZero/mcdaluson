@@ -7,6 +7,16 @@ import localResponse1 from "@/assets/local-response-1.png";
 import localResponse2 from "@/assets/local-response-2.png";
 import localResponse3 from "@/assets/local-response-3.png";
 import localResponse4 from "@/assets/local-response-4.png";
+import dost1 from "@/assets/dost-1.png";
+import dost2 from "@/assets/dost-2.png";
+import dost3 from "@/assets/dost-3.png";
+import dost4 from "@/assets/dost-4.png";
+import dost5 from "@/assets/dost-5.png";
+import abra1 from "@/assets/abra-1.png";
+import abra2 from "@/assets/abra-2.png";
+import abra3 from "@/assets/abra-3.png";
+import abra4 from "@/assets/abra-4.png";
+import abra5 from "@/assets/abra-5.png";
 
 interface Project {
   title: string;
@@ -27,16 +37,20 @@ const projects: Project[] = [
     screenshots: [localResponse1, localResponse2, localResponse3, localResponse4],
   },
   {
-    title: "E-Commerce Platform",
-    description: "A modern shopping experience with seamless checkout flow",
-    tags: ["React", "Node.js", "Stripe"],
-    year: "2024",
+    title: "DOST Management System",
+    description: "An internal management platform featuring fuel tracking, travel logs, and inventory management",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    year: "2026",
+    link: "https://dost-baguio.vercel.app/",
+    screenshots: [dost1, dost2, dost3, dost4, dost5],
   },
   {
-    title: "Dashboard Analytics",
-    description: "Real-time data visualization for business intelligence",
-    tags: ["TypeScript", "D3.js", "PostgreSQL"],
-    year: "2024",
+    title: "Abra Connect",
+    description: "A tourism platform exploring Abra's rich heritage, featuring AI itineraries, interactive maps, and cultural highlights",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+    year: "2026",
+    link: "https://abra-connect.vercel.app/",
+    screenshots: [abra1, abra2, abra3, abra4, abra5],
   },
   {
     title: "Mobile Banking App",
